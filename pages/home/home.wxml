@@ -1,0 +1,14 @@
+<view class="swiper">
+    <swiper class="swiper-img" circular="true" autoplay="true" bindchange="swiperchange" interval="5000" duration="1000">
+        <block wx:for="{{datalist}}" wx:key="_id">
+            <swiper-item class="item">
+                <image class="item-Img" src="{{item.url}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="dots">
+        <block wx:for="{{datalist}}" wx:key="_id">
+            <view class="dot {{index===current?'active':''}}"></view>
+        </block>
+    </view>
+</view>

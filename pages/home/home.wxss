@@ -1,0 +1,39 @@
+.swiper{
+    width: 100%;
+    height: 340rpx;
+    margin-top: 5rpx;
+}
+.swiper-img{
+    width: 100%;
+    height: 340rpx;
+}
+.item-Img{
+    width: 90%;
+    height: 320rpx;
+    border-radius: 15rpx;
+    box-shadow: 3px 3px 3px 1px #ccc;
+    margin-top: 10rpx;
+}
+.item{
+    display: flex;
+    justify-content: center;
+}
+.dots{
+    width: 100%;
+    height: 50rpx;
+    margin-bottom: 50rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    width: 30rpx;
+    height: 10rpx;
+    border-radius: 50rpx;
+    background-color: crimson;
+    margin-right: 10rpx;
+}
+.active{
+    background-color: black;
+} 
+  

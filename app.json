@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/home/home",
+        "pages/buy/buy",
+        "pages/sell/sell",
+        "pages/chat/chat",
+        "pages/mine/mine"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#2b4b6b",
+        "navigationBarTitleText": "农家购",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "list": [
+          {
+            "pagePath": "pages/home/home",
+            "text": "首页",
+            "iconPath": "/icon/home.png",
+            "selectedIconPath": "/icon/home-active.png"
+          },
+          {
+            "pagePath": "pages/buy/buy",
+            "text": "买",
+            "iconPath": "/icon/buy.png",
+            "selectedIconPath": "/icon/buy-active.png"
+          },
+          {
+            "pagePath": "pages/sell/sell",
+            "text": "卖",
+            "iconPath": "/icon/sell.png",
+            "selectedIconPath": "/icon/sell-active.png"
+          },
+          {
+            "pagePath": "pages/chat/chat",
+            "text": "消息",
+            "iconPath": "/icon/chat.png",
+            "selectedIconPath": "/icon/chat-active.png"
+          },
+          {
+            "pagePath": "pages/mine/mine",
+            "text": "我的",
+            "iconPath": "/icon/mine.png",
+            "selectedIconPath": "/icon/mine-active.png"
+          }
+        ]
+      },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
